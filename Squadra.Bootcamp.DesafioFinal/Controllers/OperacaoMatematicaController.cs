@@ -28,7 +28,7 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
         [HttpPost]
         [Route("ObterToken")]
 
-        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model,string nome,string senha)
+        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model)
         {
             var user = UserRepository.Get(model.Username, model.Password);
 
