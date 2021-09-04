@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KyXPJtuNKPgTAODho8uQprOb9jNv+FmXPmaHXfj82+8Qy0MmqJ88HVoQnh6az0dSzhW7m3s5jQo73OlzJFzTwA==",
+  "dgSpecHash": "Y+l0ygYITxKDPizRdhAu9KE1ur//SEJtGFNHetGb6xo+jwdhuEfh/HW+grvhQ+s9WHhYZ87dYGU0ztErpx5Pfg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.teste\\Squadra.Bootcamp.teste.csproj",
+  "projectFilePath": "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.teste\\Squadra.Bootcamp.teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauri\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\mauri\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

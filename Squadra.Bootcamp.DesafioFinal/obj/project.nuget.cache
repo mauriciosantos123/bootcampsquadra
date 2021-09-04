@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/qGMMkuXHEcCfYIX8wZZRv6085Ftid3Hke30xhgypd7s1yDGWXhcFR3XRB6i/6cy4zBnt40xy9XphqJ/im23hQ==",
+  "dgSpecHash": "2yYoxfmE9jRM6tm1aboXbYPEQY9Bg0iPAm2LWFtf1q2oGbzEtyzWPuvLWWUuU4GXK2+311PZvzKyP2RS6iYcjw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
+  "projectFilePath": "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauri\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\mauri\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

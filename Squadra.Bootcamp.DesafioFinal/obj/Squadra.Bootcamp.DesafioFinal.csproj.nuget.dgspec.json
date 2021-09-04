@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj": {}
+    "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj": {
+    "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
+        "projectUniqueName": "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
         "projectName": "Squadra.Bootcamp.DesafioFinal",
-        "projectPath": "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
+        "projectPath": "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal.csproj",
         "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mauri\\source\\repos\\Squadra.Bootcamp.DesafioFinal\\Squadra.Bootcamp.DesafioFinal\\obj\\",
+        "outputPath": "C:\\Users\\mauri\\Source\\Repos\\bootcampsquadra\\Squadra.Bootcamp.DesafioFinal\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mauri\\AppData\\Roaming\\NuGet\\NuGet.Config",

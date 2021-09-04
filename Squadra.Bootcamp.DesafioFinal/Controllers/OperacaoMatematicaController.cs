@@ -26,9 +26,9 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
         }
 
         [HttpPost]
-        [Route("login")]
+        [Route("ObterToken")]
 
-        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model)
+        public async Task<ActionResult<dynamic>> Authenticate([FromBody] User model,string nome,string senha)
         {
             var user = UserRepository.Get(model.Username, model.Password);
 
@@ -37,12 +37,14 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
 
             var token = TokenService.GenerateToken(user);
             user.Password = "";
+            
             return new
             {
                 user,
                 token
             };
         }
+
 
         [HttpGet]
         [Route("/somar")]
@@ -61,9 +63,9 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
         [HttpGet]
         [Route("/multiplicar")]
         [Authorize]
-        public double ObterMultiplicacao([Required] int valor_1, int valor_2)
+        public double ObterMultiplicacao([Required] double valor_1, double valor_2)
         {
-            return _funcaoMatematica.Multiplicar(valor_1, valor_2);
+            return Math.Round(_funcaoMatematica.Multiplicar(valor_1, valor_2),2);
         }
 
         [HttpGet]
@@ -71,7 +73,7 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
         [Authorize(Roles = "MATEMATICO")]
         public double ObterDivisao([Required] double valor_1, double valor_2)
         {
-            return _funcaoMatematica.Dividir(valor_1, valor_2);
+            return Math.Round( _funcaoMatematica.Dividir(valor_1, valor_2),2);
         }
 
     }
