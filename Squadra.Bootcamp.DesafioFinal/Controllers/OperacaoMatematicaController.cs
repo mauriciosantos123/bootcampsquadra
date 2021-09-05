@@ -70,7 +70,7 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
 
         [HttpGet]
         [Route("/dividir")]
-        [Authorize(Roles = "MATEMATICO")]
+     /*   [Authorize(Roles = "MATEMATICO")]*/
         public double ObterDivisao([Required] double valor_1, double valor_2)
         {
             return Math.Round( _funcaoMatematica.Dividir(valor_1, valor_2),2);

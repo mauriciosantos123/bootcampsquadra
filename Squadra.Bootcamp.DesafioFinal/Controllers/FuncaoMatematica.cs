@@ -9,8 +9,8 @@ namespace Squadra.Bootcamp.DesafioFinal.Controllers
         {
             try
             {
-                if (valor_1.Equals(0) || valor_2.Equals(0))
-                    throw new NotImplementedException("O valor não pode ser divido por zero !");
+                if (valor_2.Equals(0))
+                    throw new Exception("O valor não pode ser divido por zero !");
                 return valor_1 / valor_2;
             }
             catch (System.Exception e)
